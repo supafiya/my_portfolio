@@ -1,32 +1,36 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.cards-wrapper {
+	margin: 150px 0;
+	display: flex;
+	justify-content: space-around;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-CardOne {
+	transition: transform 0.8s;
+	transition-timing-function: cubic-bezier(1, 0.21, 0.33, 1.7);
 }
 
-.App-link {
-  color: #61dafb;
+.app-CardTwo {
+	transition: transform 0.8s;
+	transition-timing-function: cubic-bezier(1, 0.21, 0.33, 1.7);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-CardThree {
+	transition: transform 0.8s;
+	transition-timing-function: cubic-bezier(1, 0.21, 0.33, 1.7);
+}
+
+.app-CardOne:hover {
+	transform: scale(1.2);
+}
+
+.app-CardTwo:hover {
+	transform: scale(1.2);
+}
+
+.app-CardThree:hover {
+	transform: scale(1.2);
 }
