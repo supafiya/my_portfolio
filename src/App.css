@@ -1,36 +1,72 @@
 .App {
 	text-align: center;
+	border: 1px solid black;
+	width: 1000px;
+	height: 1900px;
+	margin: 0 auto;
+	background-color: rgb(46, 46, 46);
+	text-transform: uppercase;
 }
 
 .cards-wrapper {
-	margin: 150px 0;
+	/* background-image: url('./img/img13.jpg');
+	background-size: contain; */
+	box-shadow: 0px 0px 100px 5px black;
+	background-color: rgb(36, 39, 41);
+	height: 600px;
+	margin: 600px 0;
 	display: flex;
+	align-items: center;
 	justify-content: space-around;
+	border-top: 5px solid rgb(84, 116, 221);
+	border-bottom: 5px solid rgb(101, 133, 240);
+}
+
+.card-bg {
+	content: '';
+	height: 600px;
+	background-image: url('./img/img13.jpg');
+	background-size: cover;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 1000px;
+	margin: 610px auto;
+	z-index: 1;
+	opacity: 0.5;
 }
 
 .app-CardOne {
 	transition: transform 0.8s;
 	transition-timing-function: cubic-bezier(1, 0.21, 0.33, 1.7);
+	z-index: 2;
 }
 
 .app-CardTwo {
 	transition: transform 0.8s;
 	transition-timing-function: cubic-bezier(1, 0.21, 0.33, 1.7);
+	z-index: 2;
 }
 
 .app-CardThree {
 	transition: transform 0.8s;
 	transition-timing-function: cubic-bezier(1, 0.21, 0.33, 1.7);
+	z-index: 2;
 }
 
 .app-CardOne:hover {
 	transform: scale(1.2);
+	z-index: 3;
 }
 
 .app-CardTwo:hover {
 	transform: scale(1.2);
+	z-index: 3;
 }
 
 .app-CardThree:hover {
 	transform: scale(1.2);
+	z-index: 3;
 }

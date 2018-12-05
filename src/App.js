@@ -23,6 +23,7 @@ class App extends Component {
 						<CardThree />
 					</div>
 				</div>
+				<div className="card-bg" />
 			</div>
 		);
 	}

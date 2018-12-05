@@ -22,8 +22,8 @@ function handleNoHover() {
 	const c2b = document.getElementById('c2b');
 
 	card2.classList.remove('is-flipped');
-	c2f.style.border = '2px solid black';
-	c2b.style.border = '2px solid black';
+	c2f.style.border = '0';
+	c2b.style.border = '0';
 	c2f.style.boxShadow = '12px 12px 45px 0px #00000085';
 	c2b.style.boxShadow = '12px 12px 45px 0px #00000085';
 }
